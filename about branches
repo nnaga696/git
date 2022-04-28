@@ -1,0 +1,26 @@
+Branches in Git
+
+
+git branch branchname
+
+
+git checkout branchname
+
+
+Create a branch and checkout the code to the newly
+created branch
+----------------------------------------------------
+git checkout -b branchname
+
+
+git pull - It is going to check if there is any 
+additional code/any file in remote repository and its being downloaded 
+to  your current branch and also its merging
+
+git fetch - It is also going to check if there is an
+change in the code in remote repository, but here its
+just fetching the change but its not merging
+
+git merge
+
+git pull = git fetch + git merge
